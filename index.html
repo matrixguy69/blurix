@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLURIX — Sports Gear, Stitched Different</title>
+<meta name="description" content="Sialkot-made sports gear for the next generation. Footballs, gloves, gym gear — hand-stitched, globally shipped.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">BLURIX<span class="dot">.</span></a>
+    <nav class="nav-links">
+      <a href="#shop">Shop</a>
+      <a href="#story">Story</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="cartBtn" aria-label="Open cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
+    <svg class="stitch-hero" viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path id="stitchPath" d="M0,30 Q150,0 300,30 T600,30 T900,30 T1200,30" fill="none" stroke="#F4C542" stroke-width="2" stroke-dasharray="10 8" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="hero-inner">
+    <p class="eyebrow">HAND-STITCHED IN SIALKOT · SHIPPED WORLDWIDE</p>
+    <h1 class="hero-title">GEAR THAT<br>PLAYS <span class="outline">DIRTY.</span></h1>
+    <p class="hero-sub">Footballs, gloves & gym gear built by the same hands stitching for the biggest leagues on earth. No middlemen markup. Just the real thing.</p>
+    <div class="hero-cta">
+      <a href="#shop" class="btn btn-primary">Shop the Drop</a>
+      <a href="#story" class="btn btn-ghost">Our Story →</a>
+    </div>
+  </div>
+  <div class="hero-card" id="heroCard">
+    <div class="hero-card-inner">
+      <div class="hero-card-tag">BEST SELLER</div>
+      <div class="hero-card-icon">⚽</div>
+      <div class="hero-card-name">Match Pro '26</div>
+      <div class="hero-card-price">PKR 3,200</div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>MADE IN SIALKOT</span><span>·</span><span>FREE SHIPPING OVER PKR 5,000</span><span>·</span>
+    <span>COD AVAILABLE</span><span>·</span><span>HAND STITCHED</span><span>·</span>
+    <span>MADE IN SIALKOT</span><span>·</span><span>FREE SHIPPING OVER PKR 5,000</span><span>·</span>
+    <span>COD AVAILABLE</span><span>·</span><span>HAND STITCHED</span><span>·</span>
+  </div>
+</div>
+
+<!-- SHOP -->
+<section class="shop" id="shop">
+  <div class="section-head">
+    <p class="eyebrow">THE LINEUP</p>
+    <h2>Shop the Drop</h2>
+  </div>
+
+  <div class="filters">
+    <div class="filter-group" id="categoryFilters">
+      <button class="chip active" data-cat="all">All</button>
+      <button class="chip" data-cat="football">Footballs</button>
+      <button class="chip" data-cat="boxing">Boxing</button>
+      <button class="chip" data-cat="gym">Gym</button>
+      <button class="chip" data-cat="apparel">Apparel</button>
+    </div>
+    <div class="sort-group">
+      <label for="sortSelect">Sort</label>
+      <select id="sortSelect">
+        <option value="featured">Featured</option>
+        <option value="low">Price: Low to High</option>
+        <option value="high">Price: High to Low</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="product-grid" id="productGrid"></div>
+</section>
+
+<!-- STITCH DIVIDER -->
+<div class="stitch-divider">
+  <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><line x1="0" y1="20" x2="1200" y2="20" stroke="currentColor" stroke-width="2" stroke-dasharray="9 9"/></svg>
+</div>
+
+<!-- STORY -->
+<section class="story" id="story">
+  <div class="story-visual">
+    <div class="story-badge">
+      <div class="badge-ring">
+        <span>SINCE THE STITCH</span>
+      </div>
+      <div class="badge-center">EST.<br>SIALKOT</div>
+    </div>
+  </div>
+  <div class="story-content">
+    <p class="eyebrow">THE STORY</p>
+    <h2>Every panel, hand-sewn.<br>Every order, real.</h2>
+    <p class="story-text">Sialkot has been stitching footballs for the world's biggest tournaments for decades — the actual factories, the actual hands. Blurix cuts out the export middlemen and brings that same craft straight to you, priced fair, styled for right now.</p>
+    <div class="story-stats">
+      <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Years of stitching heritage</span></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Sialkot manufactured</span></div>
+      <div class="stat"><span class="stat-num">0</span><span class="stat-label">Middlemen markup</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="section-head">
+    <p class="eyebrow">GOOD TO KNOW</p>
+    <h2>FAQ</h2>
+  </div>
+  <div class="faq-list" id="faqList">
+    <div class="faq-item">
+      <button class="faq-q">
+        <span>How long does delivery take?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><p>2–4 business days within Pakistan. International shipping timelines shown at checkout once you enter your country.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">
+        <span>Do you offer Cash on Delivery?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><p>Yes — COD is available on all domestic orders. Prepaid orders via JazzCash, Easypaisa, or card also get a small discount.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">
+        <span>Can I customize my order (bulk/team orders)?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><p>Absolutely — for team kits, custom stitching, or bulk gym equipment orders, hit us up on the contact form below with quantities and we'll send a quote.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">
+        <span>What's your return policy?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><p>7-day returns on unused items in original packaging. Defective items are replaced free of charge — just send a photo when you reach out.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">
+        <span>Do you ship internationally?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a"><p>Yes, worldwide. Export-grade packaging on every order since a lot of our gear is already built for international buyers.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-left">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Questions, bulk orders,<br>collabs — talk to us.</h2>
+      <div class="contact-links">
+        <a href="https://wa.me/923000000000" target="_blank" rel="noopener">WhatsApp →</a>
+        <a href="https://instagram.com/blurix" target="_blank" rel="noopener">Instagram →</a>
+        <a href="mailto:hello@blurix.pk">hello@blurix.pk →</a>
+      </div>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+      </div>
+      <input type="text" placeholder="Subject" required>
+      <textarea placeholder="Message" rows="4" required></textarea>
+      <button type="submit" class="btn btn-primary full">Send Message</button>
+      <p class="form-note" id="contactNote"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="logo">BLURIX<span class="dot">.</span></div>
+      <p>Sports gear, hand-stitched in Sialkot, shipped anywhere.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <a href="#shop">Footballs</a>
+      <a href="#shop">Boxing</a>
+      <a href="#shop">Gym</a>
+      <a href="#shop">Apparel</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#story">Our Story</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Follow</h4>
+      <a href="https://instagram.com/blurix" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://tiktok.com/@blurix" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://wa.me/923000000000" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Blurix. All rights reserved.</span>
+    <span>Made in Sialkot, Pakistan.</span>
+  </div>
+</footer>
+
+<!-- CART DRAWER -->
+<div class="overlay" id="overlay"></div>
+<aside class="cart-drawer" id="cartDrawer">
+  <div class="cart-head">
+    <h3>Your Cart</h3>
+    <button class="icon-btn" id="closeCart">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-footer">
+    <div class="cart-subtotal">
+      <span>Subtotal</span>
+      <span id="cartSubtotal">PKR 0</span>
+    </div>
+    <button class="btn btn-primary full" id="checkoutBtn">Checkout</button>
+  </div>
+</aside>
+
+<!-- CHECKOUT MODAL -->
+<div class="modal-overlay" id="checkoutOverlay">
+  <div class="modal checkout-modal">
+    <button class="icon-btn modal-close" id="closeCheckout">✕</button>
+    <div id="checkoutStep1">
+      <h3>Checkout</h3>
+      <form id="checkoutForm">
+        <div class="form-row">
+          <input type="text" placeholder="Full Name" required>
+          <input type="tel" placeholder="Phone Number" required>
+        </div>
+        <input type="text" placeholder="Address" required>
+        <div class="form-row">
+          <input type="text" placeholder="City" required>
+          <input type="text" placeholder="Postal Code">
+        </div>
+        <h4 class="pay-label">Payment Method</h4>
+        <div class="pay-options">
+          <label class="pay-option"><input type="radio" name="pay" value="cod" checked><span>Cash on Delivery</span></label>
+          <label class="pay-option"><input type="radio" name="pay" value="jazzcash"><span>JazzCash</span></label>
+          <label class="pay-option"><input type="radio" name="pay" value="easypaisa"><span>Easypaisa</span></label>
+          <label class="pay-option"><input type="radio" name="pay" value="card"><span>Debit/Credit Card</span></label>
+        </div>
+        <div class="checkout-total">
+          <span>Total</span>
+          <span id="checkoutTotal">PKR 0</span>
+        </div>
+        <button type="submit" class="btn btn-primary full">Place Order</button>
+        <p class="checkout-note">This is a demo storefront — no real payment is processed. Connect a payment provider (JazzCash/Easypaisa API or Stripe) before going live.</p>
+      </form>
+    </div>
+    <div id="checkoutStep2" class="checkout-success" style="display:none">
+      <div class="success-icon">✓</div>
+      <h3>Order Placed!</h3>
+      <p>Thanks for shopping Blurix. A confirmation would normally be sent to your phone/email here.</p>
+      <button class="btn btn-primary" id="continueShoppingBtn">Continue Shopping</button>
+    </div>
+  </div>
+</div>
+
+<!-- COOKIE BANNER -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>We use cookies to remember your cart and improve your experience. <a href="#" id="cookieLearnMore">Learn more</a></p>
+  <div class="cookie-actions">
+    <button class="btn btn-ghost small" id="cookieDecline">Decline</button>
+    <button class="btn btn-primary small" id="cookieAccept">Accept</button>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
